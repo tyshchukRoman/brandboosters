@@ -87,7 +87,7 @@ function codelibry_customize_register($wp_customize) {
         ));
     }
 }
-add_action('customize_register', 'codelibry_customize_register');
+//add_action('customize_register', 'codelibry_customize_register');
 
 
 function codelibry_customizer_css() {
@@ -136,4 +136,4 @@ function codelibry_customizer_css() {
     <?php
 }
 
-add_action('wp_head', 'codelibry_customizer_css');
+//add_action('wp_head', 'codelibry_customizer_css');

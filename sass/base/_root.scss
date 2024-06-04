@@ -5,6 +5,7 @@
     }
   }
 
+  /*
   @if ($enable-media-query-dark-mode) {
     @media (prefers-color-scheme: dark) {
       @each $color, $shade-map in $dark {
@@ -14,6 +15,7 @@
       }
     }
   }
+  */
 
   @each $screen-size, $size-map in $font-sizes {
     @if $screen-size == small {
