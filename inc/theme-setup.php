@@ -9,7 +9,7 @@
 
 function codelibry_setup(){
 
-	load_theme_textdomain( 'theme_slug', get_template_directory() . '/languages' );
+	load_theme_textdomain( 'brandboosters', get_template_directory() . '/languages' );
 
 	add_theme_support( 'title-tag' );
 	add_theme_support( 'automatic-feed-links' );
@@ -22,8 +22,8 @@ function codelibry_setup(){
 
   register_nav_menus(
     array(
-      'header-menu' => __('Header Menu', 'theme-name'),
-      'footer-menu' => __('Footer Menu', 'theme-name'),
+      'header-menu' => __('Header Menu', 'brandboosters'),
+      'footer-menu' => __('Footer Menu', 'brandboosters'),
     )
   );
 }
