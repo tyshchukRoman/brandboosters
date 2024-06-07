@@ -2,11 +2,15 @@
 
 <main class="page">
 
-<section id="section">
-  <div class="section__container">
-    index.php
-  </div>
-</section>
+<?php
+
+get_template_part('template-parts/sections/site-header');
+get_template_part('template-parts/sections/hero');
+get_template_part('template-parts/sections/about-us');
+get_template_part('template-parts/sections/features-grid');
+
+?>
+
 
 </main>
 
