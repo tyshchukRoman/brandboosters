@@ -26,6 +26,42 @@ $-clr-cyan-light: rgb(198, 255, 255); // hsl(194, 98%, 81%)
 $-clr-cyan-mid: rgb(71, 179, 209); // hsl(197, 64%, 53%)
 $-clr-cyan-dark: rgb(20, 56, 82); // hsl(195, 69%, 27%)
 
+$dark: (
+  "neutral": (
+    "000": $-clr-grey-dark,
+    "100": $-clr-grey-mid,
+    "400": $-clr-grey-light,
+    "700": $-clr-white,
+  ),
+  "primary": (
+    "100": $-clr-blue-dark,
+    "200": $-clr-blue-mid,
+    "400": $-clr-blue-light,
+    "700": $-clr-blue-very-light,
+  ),
+  "accent": (
+    "100": $-clr-green-dark,
+    "200": $-clr-green-mid,
+    "400": $-clr-green-light,
+    "700": $-clr-green-very-light,
+  ),
+  "yellow": (
+    "300": $-clr-yellow-dark,
+    "400": $-clr-yellow-mid,
+    "500": $-clr-yellow-light,
+  ),
+  "pink": (
+    "300": $-clr-pink-dark,
+    "400": $-clr-pink-mid,
+    "500": $-clr-pink-light,
+  ),
+  "cyan": (
+    "300": $-clr-cyan-dark,
+    "400": $-clr-cyan-mid,
+    "500": $-clr-cyan-light,
+  ),
+);
+
 $light: (
   "neutral": (
     "000": $-clr-white,
@@ -61,46 +97,6 @@ $light: (
     "500": $-clr-cyan-dark,
   ),
 );
-
-/*
-$dark: (
-  "neutral": (
-    "1000": $-clr-white,
-    "900": $-clr-gray-100,
-    "800": $-clr-gray-200,
-    "700": $-clr-gray-300,
-    "600": $-clr-gray-400,
-    "500": $-clr-gray-500,
-    "400": $-clr-gray-600,
-    "300": $-clr-gray-700,
-    "200": $-clr-gray-800,
-    "100": $-clr-gray-900,
-    "000": $-clr-black,
-  ),
-  "accent": (
-    "900": $-clr-deeppink-900,
-    "800": $-clr-deeppink-800,
-    "700": $-clr-deeppink-700,
-    "600": $-clr-deeppink-600,
-    "500": $-clr-deeppink-500,
-    "400": $-clr-deeppink-400,
-    "300": $-clr-deeppink-300,
-    "200": $-clr-deeppink-200,
-    "100": $-clr-deeppink-100,
-  ),
-  "primary": (
-    "900": $-clr-skyblue-900,
-    "800": $-clr-skyblue-800,
-    "700": $-clr-skyblue-700,
-    "600": $-clr-skyblue-600,
-    "500": $-clr-skyblue-500,
-    "400": $-clr-skyblue-400,
-    "300": $-clr-skyblue-300,
-    "200": $-clr-skyblue-200,
-    "100": $-clr-skyblue-100,
-  ),
-);
-  */
 
 // contextual color tokens
 $color-neutral-000: var(--neutral-000);

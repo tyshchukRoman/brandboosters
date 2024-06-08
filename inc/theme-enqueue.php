@@ -16,7 +16,7 @@ function codelibry_enqueue () {
 
   if($DEVELOPMENT) {
     
-    $style_version = filemtime( "{$ABSOLUTE_DIST}/main.min.css" );
+    $style_version = filemtime( "{$ABSOLUTE_DIST}/main.css" );
     $vendor_version = filemtime( "{$ABSOLUTE_DIST}/vendor.min.js" );
     $custom_version = filemtime( "{$ABSOLUTE_DIST}/main.min.js" );
 
@@ -28,7 +28,7 @@ function codelibry_enqueue () {
 
   }
 
-  wp_enqueue_style( 'main', "{$DIST}/main.min.css", array(), $style_version, 'all' ); // main css
+  wp_enqueue_style( 'main', "{$DIST}/main.css", array(), $style_version, 'all' ); // main css
   wp_enqueue_script( 'vendor', "{$DIST}/vendor.min.js", array('jquery'), $vendor_version, true ); // vendor js
   wp_enqueue_script( 'main', "{$DIST}/main.min.js", array('vendor'), $custom_version, true ); // main js
 
