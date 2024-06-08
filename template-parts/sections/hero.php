@@ -1,6 +1,6 @@
 <section class="hero | section">
   <div class="container container--wide">
-    <div class="even-columns align-items-center">
+    <div class="even-columns align-items-center justify-content-between">
       <div class="flow">
         <h1 class="heading-1">
           Welcome to
