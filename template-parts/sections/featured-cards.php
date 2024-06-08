@@ -1,7 +1,7 @@
-<section class="features-grid | section">
+<section class="featured-cards | section">
   <div class="container flow">
     <h2 class="heading-2 text-center">Features</h2>
-    <div class="offset-grid">
+    <div class="featured-cards__grid | offset-grid">
       <div class="card | bg-accent-100">
         <?php echo get_inline_svg('book.svg') ?>
 
