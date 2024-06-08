@@ -70,7 +70,7 @@ $site-header-background-color: $color-primary-100;
 $site-header-color: $color-neutral-700;
 $site-header-padding: $size-8 0;
 $site-header-margin: 0;
-$site-header-jusitifcation-small-screens: center;
+$site-header-jusitifcation-small-screens: space-between;
 $site-header-jusitifcation-large-screens: space-between;
 $site-header-alignment: center;
 
@@ -96,17 +96,20 @@ $button-font-family: $body-font-family;
 $button-font-size: $font-size-400;
 $button-font-weight: $font-weight-default;
 $button-text-transform: none;
-$button-padding: 0.5em 1em;
+$button-padding: 0.75em 1em;
 $button-border: 0;
 $button-border-radius: $border-radius-1;
+
+$button-default-background: transparent;
+$button-default-hover-background: $color-neutral-100;
 
 $button-accent-color: $color-primary-700;
 $button-accent-background: $color-accent-400;
 $button-accent-color-hover: $color-primary-700;
 $button-accent-background-hover: $color-accent-400;
 
-$button-primary-color: $color-primary-400;
-$button-primary-background: $color-neutral-000;
+$button-primary-color: $color-neutral-000;
+$button-primary-background: $color-primary-400;
 $button-primary-color-hover: $color-primary-700;
 $button-primary-background-hover: $color-cyan-300;
 

@@ -1,0 +1,17 @@
+.full-height-image
+
+  &.position--right
+    margin-bottom: calc(#{$section-padding-block} * -1)
+    
+  &.position--left
+    margin-top: calc(#{$section-padding-block} * -1)
+
+  +min-screen($medium)
+    margin-bottom: calc(#{$section-padding-block} * -1)
+    margin-top: calc(#{$section-padding-block} * -1)
+    height: calc((100% + #{$section-padding-block} * 2) - var(--space-top, 0px) - var(--space-bottom, 0px))
+    transform: translateY(calc((var(--space-top, 0px) * 0.5) + (var(--space-bottom, 0px) * -0.5)))
+
+  img
+    object-fit: cover
+    height: 100%
