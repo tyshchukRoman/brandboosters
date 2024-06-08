@@ -13,42 +13,52 @@
     p
       max-width: 32ch
 
-    & > :nth-child(1) 
-      a
-        color: $color-accent-700
+  &__card:nth-child(1) 
+    a
+      color: $color-accent-700
 
+    svg
+      fill: $color-accent-400
+      transform: scale(3)
+      bottom: rem(-20)
+      right: rem(30)
+
+  &__card:nth-child(2) 
+    a
+      color: $color-yellow-500
+
+    svg
+      fill: $color-yellow-400
+      transform: scale(4) translate(-25%, 30%)
+      top: rem(0)
+      right: rem(0)
+
+  &__card:nth-child(3) 
+    a
+      color: $color-pink-500
+
+    svg
+      fill: $color-pink-400
+      transform: scale(4) translate(-35%, 28%)
+      top: rem(0)
+      right: rem(0)
+
+  &__card:nth-child(4) 
+    a
+      color: $color-cyan-500
+
+    svg
+      fill: $color-accent-400
+      transform: scale(3)
+      bottom: rem(-20)
+      right: rem(30)
+  
+
+  +max-screen(medium)
+    &__card
       svg
-        fill: $color-accent-400
-        transform: scale(3)
-        bottom: rem(-20)
-        right: rem(30)
-
-    & > :nth-child(2) 
-      a
-        color: $color-yellow-500
-
-      svg
-        fill: $color-yellow-400
-        transform: scale(4) translate(-25%, 30%)
-        top: rem(0)
-        right: rem(0)
-
-    & > :nth-child(3) 
-      a
-        color: $color-pink-500
-
-      svg
-        fill: $color-pink-400
-        transform: scale(4) translate(-35%, 28%)
-        top: rem(0)
-        right: rem(0)
-
-    & > :nth-child(4) 
-      a
-        color: $color-cyan-500
-
-      svg
-        fill: $color-accent-400
-        transform: scale(3)
-        bottom: rem(-20)
-        right: rem(30)
+        transform: scale(3) !important
+        bottom: rem(-10) !important
+        right: rem(30) !important
+        top: auto !important
+        left: auto !important

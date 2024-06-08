@@ -3,15 +3,15 @@ $enable-media-query-dark-mode: false;
 
 // Contextual
 $color-text-default: $color-neutral-700;
-$color-background-default: $color-primary-100;
+$color-background-default: $color-neutral-000;
 $color-text-interactive-default: $color-primary-400;
 $color-text-interactive-hover: $color-accent-700;
 
 // set to 0 to disable
 $letter-spacing-loose: 0;
 
-$border-radius-1: $size-1;
-$border-radius-2: $size-4;
+$border-radius-1: $size-4;
+$border-radius-2: $size-16;
 
 $box-shadow-1: 0px 6px 5px rgba(0, 0, 0, 0.012),
   0px 22px 18px rgba(0, 0, 0, 0.018), 0px 100px 80px rgba(0, 0, 0, 0.03);
@@ -54,13 +54,13 @@ $heading-3-font-size: $font-size-700;
 $heading-3-color: $heading-color-default;
 
 // layout
-$grid-gap: $size-6;
-$flex-group-gap: $size-4;
+$grid-gap: $size-24;
+$flex-group-gap: $size-16;
 
 //$hero-padding-block: clamp(15rem, 15vh, 20rem);
-$section-padding-block: clamp(rem(60), 10vh, rem(80));
+$section-padding-block: clamp(rem(60), 10vw, rem(80));
 
-$container-min-margin-inline: $size-4;
+$container-min-margin-inline: $size-16;
 $container-max-width: 61rem;
 $container-max-width-narrow: 42rem;
 $container-max-width-wide: 68.75rem;
@@ -68,7 +68,7 @@ $container-max-width-wide: 68.75rem;
 // site header
 $site-header-background-color: $color-primary-100;
 $site-header-color: $color-neutral-700;
-$site-header-padding: $size-8 0;
+$site-header-padding: $size-24 0;
 $site-header-margin: 0;
 $site-header-jusitifcation-small-screens: space-between;
 $site-header-jusitifcation-large-screens: space-between;
@@ -78,13 +78,13 @@ $site-header-alignment: center;
 $navigation-color: $site-header-color;
 $navigation-color-hover: $color-accent-400;
 $navigation-font-size: $font-size-400;
-$navigation-gap: $size-10;
+$navigation-gap: $size-60;
 $navigation-link-text-decoration: none;
 $navigation-font-family: $body-font-family;
 $navigation-font-weight: $body-font-weight;
 
 // site footer
-$footer-background-color: $color-neutral-000;
+$footer-background-color: $color-background-default;
 $footer-text-color: $color-neutral-400;
 $footer-link-color: $color-neutral-400;
 $footer-link-color-hover: $color-accent-400;
@@ -114,8 +114,8 @@ $button-primary-color-hover: $color-primary-700;
 $button-primary-background-hover: $color-cyan-300;
 
 // cards
-$card-flow-spacing: $size-2;
-$card-padding: $size-6;
+$card-flow-spacing: $size-16;
+$card-padding: $size-24;
 $card-shadow: none;
 $card-border-radius: $border-radius-2;
 $card-background-default: $color-neutral-400;

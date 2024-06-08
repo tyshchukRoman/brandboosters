@@ -6,3 +6,9 @@
   & > :nth-child(2),
   & > :nth-child(3)
     grid-column: span 2
+
+  +max-screen(medium)
+    grid-template-columns: 1fr
+
+    & > *
+      grid-column: span 2

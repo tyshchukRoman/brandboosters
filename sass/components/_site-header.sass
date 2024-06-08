@@ -9,5 +9,10 @@
     align-items: $site-header-alignment
     justify-content: $site-header-jusitifcation-large-screens
 
-    +max-screen(medium)
+
+  +max-screen(medium)
+    &__inner
       justify-content: $site-header-jusitifcation-small-screens
+
+    &__nav
+      display: none

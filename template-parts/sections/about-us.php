@@ -1,7 +1,7 @@
 <section class="about-us | section bg-primary-700 clr-neutral-000">
   <div class="container">
-    <div class="even-columns align-items-center justify-content-between">
-      <div class="flow">
+    <div class="about-us__row | even-columns align-items-center justify-content-between">
+      <div class="about-us__content | flow">
         <h2 class="heading-2 clr-neutral-000">About us</h2>
         <p>BrandBoosters was founded with the mission of <strong>helping businesses of all sizes</strong> achieve
           their marketing
