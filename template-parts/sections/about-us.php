@@ -10,7 +10,7 @@
         <a href="" class="button button--accent">Learn more about us</a>
       </div>
       <div class="full-height-image position--right" style="--space-top: 2rem">
-        <img class="bg-primary-200" src="<?php src('girl-on-phone.webp') ?>" alt="">
+        <img class="bg-primary-200 round-top" src="<?php src('girl-on-phone.webp') ?>" alt="">
       </div>
     </div>
   </div>
