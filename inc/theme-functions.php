@@ -115,9 +115,21 @@ add_filter('wp_get_attachment_image_src', 'fix_wp_get_attachment_image_svg', 10,
 */
 function get_inline_svg($name)
 {
-    if ($name) :
-        return file_get_contents(esc_url(get_template_directory() . '/assets/images/' . $name));
-    endif;
+    if ($name) {
+        $file_path = get_template_directory() . '/assets/' . $name;
+
+        // Check if the file exists
+        if (file_exists($file_path)) {
+            // Get the contents of the file
+            $svg_content = file_get_contents($file_path);
+
+            // Escape the content for safe output
+            return $svg_content;
+        } else {
+            // Handle error if file does not exist
+            return '';
+        }
+    }
     return '';
 }
 
